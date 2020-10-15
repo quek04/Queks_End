@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "queks_end:end_grass_block",
+    "queks_end:end_grass",
+    "queks_end:tall_end_grass",
+    "queks_end:obversa_plant",
+    "queks_end:paramulite_ore",
+    "queks_end:argulum_ore"
+  ]
+}

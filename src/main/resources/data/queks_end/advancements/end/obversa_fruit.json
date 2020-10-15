@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:end/root",
+  "display": {
+    "icon": {
+      "item": "queks_end:obversa_fruit"
+    },
+    "title": {
+      "translate": "advancements.end.obversa_fruit.title"
+    },
+    "description": {
+      "translate": "advancements.end.obversa_fruit.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obversa_fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "queks_end:obversa_fruit"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obversa_fruit"
+    ]
+  ]
+}

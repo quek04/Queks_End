@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "queks_end:block/tall_end_grass_bottom"
+    },
+    "half=upper": {
+      "model": "queks_end:block/tall_end_grass_top"
+    }
+  }
+}

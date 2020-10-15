@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "queks_end:argulum_block"
+    }
+  ],
+  "result": {
+    "item": "queks_end:argulum_ingot",
+    "count": 9
+  }
+}

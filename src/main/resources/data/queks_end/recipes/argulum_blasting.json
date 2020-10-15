@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "queks_end:argulum_ore"
+  },
+  "result": "queks_end:argulum_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

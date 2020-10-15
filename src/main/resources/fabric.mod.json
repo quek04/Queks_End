@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "queks_end",
+  "version": "${version}",
+  "name": "Quek's End",
+  "description": "An expansion to the End for Fabric",
+  "authors": [
+    "quek"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/queks_end",
+    "sources": "https://github.com/quek04/The-Undergarden-Fabric/",
+    "issues": "https://github.com/quek04/The-Undergarden-Fabric/issues"
+  },
+  "license": "MIT",
+  "icon": "queks_end_logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "quek.queksend.client.QueksEndClient"
+    ],
+    "main": [
+      "quek.queksend.QueksEndMod"
+    ]
+  },
+  "mixins": [
+    "queks_end.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.3+build.207",
+    "fabric": "*",
+    "minecraft": ">=1.16.2"
+  },
+  "accessWidener" : "queks_end.accesswidener"
+}

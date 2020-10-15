@@ -1,0 +1,35 @@
+{
+  "parent": "queks_end:end/argulum",
+  "display": {
+    "icon": {
+      "item": "queks_end:paramulite_gem"
+    },
+    "title": {
+      "translate": "advancements.end.paramulite.title"
+    },
+    "description": {
+      "translate": "advancements.end.paramulite.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "paramulite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "queks_end:paramulite_gem"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "paramulite"
+    ]
+  ]
+}

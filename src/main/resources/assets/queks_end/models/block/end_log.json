@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "queks_end:block/end_log",
+    "end": "queks_end:block/end_log_top"
+  }
+}

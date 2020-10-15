@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "addition": {
+    "item": "queks_end:argulum_ingot"
+  },
+  "result": {
+    "item": "queks_end:argulum_shovel"
+  }
+}

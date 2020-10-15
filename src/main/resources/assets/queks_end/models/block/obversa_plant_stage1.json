@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "queks_end:block/obversa_plant_stage1"
+  }
+}

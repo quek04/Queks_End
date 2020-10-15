@@ -1,0 +1,35 @@
+{
+  "parent": "queks_end:end/argulum",
+  "display": {
+    "icon": {
+      "item": "queks_end:argulum_hoe"
+    },
+    "title": {
+      "translate": "advancements.end.argulum_hoe.title"
+    },
+    "description": {
+      "translate": "advancements.end.argulum_hoe.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "argulum_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "queks_end:argulum_hoe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "argulum_hoe"
+    ]
+  ]
+}
