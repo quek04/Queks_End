@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "queks_end:end_logs"
+    }
+  ],
+  "result": {
+    "item": "queks_end:end_planks",
+    "count": 4
+  }
+}
