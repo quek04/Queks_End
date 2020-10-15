@@ -25,7 +25,9 @@ public class EndCaveCarver extends Carver<ProbabilityConfig> {
         this.alwaysCarvableBlocks = ImmutableSet.of(
                 Blocks.END_STONE,
                 QEBlocks.end_grass_block,
-                QEBlocks.end_grass
+                QEBlocks.end_grass,
+                QEBlocks.argulum_ore,
+                QEBlocks.paramulite_ore
         );
     }
 
