@@ -36,6 +36,7 @@ public class QEItems {
 
     //resources
     public static final Item paramulite_gem = new Item(new FabricItemSettings().group(QueksEndMod.group));
+    public static final Item argulum_scrap = new Item(new FabricItemSettings().group(QueksEndMod.group));
     public static final Item argulum_ingot = new Item(new FabricItemSettings().group(QueksEndMod.group));
 
     //tools
@@ -49,6 +50,7 @@ public class QEItems {
         register("obversa_fruit", obversa_fruit);
         register("chorus_obversa_stew", chorus_obversa_stew);
         register("paramulite_gem", paramulite_gem);
+        register("argulum_scrap", argulum_scrap);
         register("argulum_ingot", argulum_ingot);
         register("argulum_sword", argulum_sword);
         register("argulum_pickaxe", argulum_pickaxe);

@@ -29,5 +29,6 @@
   "block.queks_end.end_log": "Elder Log",
   "block.queks_end.end_planks": "Elder Planks",
   "block.queks_end.end_leaves": "Elder Leaves",
-  "block.queks_end.end_sapling": "Elder Sapling"
+  "block.queks_end.end_sapling": "Elder Sapling",
+  "item.queks_end.argulum_scrap": "Argulum Scrap"
 }
