@@ -33,5 +33,11 @@
   "item.queks_end.argulum_scrap": "Argulum Scrap",
   "block.queks_end.stripped_end_log": "Stripped Elder Log",
   "block.queks_end.end_wood": "Elder Wood",
-  "block.queks_end.stripped_end_wood": "Stripped Elder Wood"
+  "block.queks_end.stripped_end_wood": "Stripped Elder Wood",
+  "block.queks_end.end_slab": "Elder Slab",
+  "block.queks_end.end_stairs": "Elder Stairs",
+  "block.queks_end.end_fence": "Elder Fence",
+  "block.queks_end.end_fence_gate": "Elder Fence Gate",
+  "block.queks_end.end_pressure_plate": "Elder Pressure Plate",
+  "block.queks_end.end_button": "Elder Button"
 }

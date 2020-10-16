@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "queks_end:block/end_planks_slab"
+      "model": "queks_end:block/end_slab"
     },
     "type=double": {
       "model": "queks_end:block/end_planks"
     },
     "type=top": {
-      "model": "queks_end:block/end_planks_slab_top"
+      "model": "queks_end:block/end_slab_top"
     }
   }
 }

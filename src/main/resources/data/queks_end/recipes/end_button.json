@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "queks_end:end_planks"
+    }
+  ],
+  "result": {
+    "item": "queks_end:end_button"
+  }
+}

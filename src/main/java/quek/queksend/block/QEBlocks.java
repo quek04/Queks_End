@@ -24,6 +24,12 @@ public class QEBlocks {
     public static final Block end_wood = new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD));
     public static final Block stripped_end_wood = new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD));
     public static final Block end_planks = new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS));
+    public static final Block end_slab = new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB));
+    public static final Block end_stairs = new EndStairsBlock(end_planks.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_STAIRS));
+    public static final Block end_fence = new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE));
+    public static final Block end_fence_gate = new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE));
+    public static final Block end_pressure_plate = new EndPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE));
+    public static final Block end_button = new EndButtonBlock(FabricBlockSettings.copyOf(Blocks.OAK_BUTTON));
     public static final Block end_leaves = new EndLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES));
 
     //plants
@@ -44,6 +50,12 @@ public class QEBlocks {
         register("end_wood", end_wood);
         register("stripped_end_wood", stripped_end_wood);
         register("end_planks", end_planks);
+        register("end_slab", end_slab);
+        register("end_stairs", end_stairs);
+        register("end_fence", end_fence);
+        register("end_fence_gate", end_fence_gate);
+        register("end_pressure_plate", end_pressure_plate);
+        register("end_button", end_button);
         register("end_leaves", end_leaves);
         register("end_sapling", end_sapling);
         register("end_grass", end_grass);

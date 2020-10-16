@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "queks_end:end_planks_stairs"
+          "name": "queks_end:end_fence_gate"
         }
       ],
       "conditions": [
