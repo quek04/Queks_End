@@ -1,3 +1,6 @@
 accessWidener	v1	named
 
 accessible method net/minecraft/world/gen/trunk/TrunkPlacerType <init> (Lcom/mojang/serialization/Codec;)V
+
+mutable    field    net/minecraft/item/AxeItem    STRIPPED_BLOCKS    Ljava/util/Map;
+accessible    field    net/minecraft/item/AxeItem    STRIPPED_BLOCKS    Ljava/util/Map;

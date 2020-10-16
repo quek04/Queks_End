@@ -26,6 +26,8 @@ public class QueksEndMod implements ModInitializer {
         QEConfiguredSurfaceBuilders.registerAll();
         QECarvers.registerAll();
         QEConfiguredCarvers.registerAll();
+
+        QEBehaviors.all();
     }
 
     public static final ItemGroup group = FabricItemGroupBuilder.build(new Identifier(QueksEndMod.MODID, "group"), () -> new ItemStack(QEItems.paramulite_gem));

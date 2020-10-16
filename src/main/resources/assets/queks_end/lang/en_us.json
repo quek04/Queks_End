@@ -30,5 +30,8 @@
   "block.queks_end.end_planks": "Elder Planks",
   "block.queks_end.end_leaves": "Elder Leaves",
   "block.queks_end.end_sapling": "Elder Sapling",
-  "item.queks_end.argulum_scrap": "Argulum Scrap"
+  "item.queks_end.argulum_scrap": "Argulum Scrap",
+  "block.queks_end.stripped_end_log": "Stripped Elder Log",
+  "block.queks_end.end_wood": "Elder Wood",
+  "block.queks_end.stripped_end_wood": "Stripped Elder Wood"
 }

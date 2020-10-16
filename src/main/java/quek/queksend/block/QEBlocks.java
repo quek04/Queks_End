@@ -20,6 +20,9 @@ public class QEBlocks {
     public static final Block argulum_ore = new EndOreBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).breakByTool(FabricToolTags.PICKAXES, 4));
     public static final Block argulum_block = new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).breakByTool(FabricToolTags.PICKAXES, 4));
     public static final Block end_log = new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG));
+    public static final Block stripped_end_log = new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG));
+    public static final Block end_wood = new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD));
+    public static final Block stripped_end_wood = new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD));
     public static final Block end_planks = new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS));
     public static final Block end_leaves = new EndLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES));
 
@@ -37,6 +40,9 @@ public class QEBlocks {
         register("argulum_ore", argulum_ore);
         register("argulum_block", argulum_block);
         register("end_log", end_log);
+        register("stripped_end_log", stripped_end_log);
+        register("end_wood", end_wood);
+        register("stripped_end_wood", stripped_end_wood);
         register("end_planks", end_planks);
         register("end_leaves", end_leaves);
         register("end_sapling", end_sapling);
