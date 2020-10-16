@@ -15,7 +15,7 @@ public class QEBehaviors {
 
     public static void all() {
         logStrips();
-        composterFuels();
+        composterItems();
     }
 
     private static void logStrips() {
@@ -27,7 +27,7 @@ public class QEBehaviors {
         AxeItem.STRIPPED_BLOCKS = ImmutableMap.copyOf(qeStrips);
     }
 
-    private static void composterFuels() {
+    private static void composterItems() {
         c(0.3F, QEItems.obversa_fruit);
         c(0.3F, QEBlocks.end_sapling);
         c(0.3F, QEBlocks.end_grass);
