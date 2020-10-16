@@ -42,6 +42,7 @@ public class QueksEndClient implements ClientModInitializer {
         registerRenderLayer(QEBlocks.end_grass, cutout);
         registerRenderLayer(QEBlocks.tall_end_grass, cutout);
         registerRenderLayer(QEBlocks.obversa_plant, cutout);
+        registerRenderLayer(QEBlocks.end_sapling, cutout);
     }
 
     private static void registerRenderLayer(Block block, RenderLayer renderLayer) {
