@@ -31,7 +31,7 @@ public class QEBehaviors {
         c(0.3F, QEItems.obversa_fruit);
         c(0.3F, QEBlocks.end_sapling);
         c(0.3F, QEBlocks.end_grass);
-        c(0.3F, QEBlocks.tall_end_grass);
+        c(0.5F, QEBlocks.tall_end_grass);
         c(0.3F, QEBlocks.end_leaves);
     }
 
