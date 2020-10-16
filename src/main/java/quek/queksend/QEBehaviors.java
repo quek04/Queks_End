@@ -32,6 +32,7 @@ public class QEBehaviors {
         c(0.3F, QEBlocks.end_sapling);
         c(0.3F, QEBlocks.end_grass);
         c(0.3F, QEBlocks.tall_end_grass);
+        c(0.3F, QEBlocks.end_leaves);
     }
 
     private static void c(float levelIncreaseChance, ItemConvertible item) {
