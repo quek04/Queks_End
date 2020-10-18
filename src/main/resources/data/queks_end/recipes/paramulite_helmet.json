@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "item": "queks_end:paramulite_gem"
+  },
+  "result": {
+    "item": "queks_end:paramulite_helmet"
+  }
+}

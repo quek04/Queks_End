@@ -1,6 +1,7 @@
 package quek.queksend.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
@@ -39,6 +40,12 @@ public class QEItems {
     public static final Item argulum_scrap = new Item(new FabricItemSettings().group(QueksEndMod.group));
     public static final Item argulum_ingot = new Item(new FabricItemSettings().group(QueksEndMod.group));
 
+    //armors
+    public static final Item paramulite_helmet = new ArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.HEAD, new FabricItemSettings().group(QueksEndMod.group));
+    public static final Item paramulite_chestplate = new ArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.CHEST, new FabricItemSettings().group(QueksEndMod.group));
+    public static final Item paramulite_leggings = new ArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.LEGS, new FabricItemSettings().group(QueksEndMod.group));
+    public static final Item paramulite_boots = new ArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.FEET, new FabricItemSettings().group(QueksEndMod.group));
+
     //tools
     public static final Item argulum_sword = new SwordItem(QEToolMaterials.argulum, 3, -2.4F, new FabricItemSettings().group(QueksEndMod.group));
     public static final Item argulum_pickaxe = new QEPickaxeItem(QEToolMaterials.argulum, 1, -2.8F, new FabricItemSettings().group(QueksEndMod.group));
@@ -52,6 +59,10 @@ public class QEItems {
         register("paramulite_gem", paramulite_gem);
         register("argulum_scrap", argulum_scrap);
         register("argulum_ingot", argulum_ingot);
+        register("paramulite_helmet", paramulite_helmet);
+        register("paramulite_chestplate", paramulite_chestplate);
+        register("paramulite_leggings", paramulite_leggings);
+        register("paramulite_boots", paramulite_boots);
         register("argulum_sword", argulum_sword);
         register("argulum_pickaxe", argulum_pickaxe);
         register("argulum_axe", argulum_axe);

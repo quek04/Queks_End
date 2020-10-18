@@ -35,11 +35,11 @@ public class EndTrunkPlacer extends TrunkPlacer {
 
     @Override
     public List<FoliagePlacer.TreeNode> generate(ModifiableTestableWorld world, Random random, int trunkHeight, BlockPos pos, Set<BlockPos> set, BlockBox blockBox, TreeFeatureConfig treeFeatureConfig) {
-        placeEndStone(world, pos.down());
+        placeEndStone(world, pos.down()); // does this even do anything?
         List<FoliagePlacer.TreeNode> list = Lists.newArrayList();
         Direction direction = Direction.Type.HORIZONTAL.random(random);
         int i = trunkHeight - random.nextInt(10) - 1;
-        int j = 3 - random.nextInt(3);
+        int j = 10 - random.nextInt(10);
         BlockPos.Mutable mutable = new BlockPos.Mutable();
         int x = pos.getX();
         int z = pos.getZ();
