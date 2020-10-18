@@ -41,10 +41,10 @@ public class QEItems {
     public static final Item argulum_ingot = new Item(new FabricItemSettings().group(QueksEndMod.group));
 
     //armors
-    public static final Item paramulite_helmet = new ArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.HEAD, new FabricItemSettings().group(QueksEndMod.group));
-    public static final Item paramulite_chestplate = new ArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.CHEST, new FabricItemSettings().group(QueksEndMod.group));
-    public static final Item paramulite_leggings = new ArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.LEGS, new FabricItemSettings().group(QueksEndMod.group));
-    public static final Item paramulite_boots = new ArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.FEET, new FabricItemSettings().group(QueksEndMod.group));
+    public static final Item paramulite_helmet = new ParamuliteArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.HEAD, new FabricItemSettings().group(QueksEndMod.group));
+    public static final Item paramulite_chestplate = new ParamuliteArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.CHEST, new FabricItemSettings().group(QueksEndMod.group));
+    public static final Item paramulite_leggings = new ParamuliteArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.LEGS, new FabricItemSettings().group(QueksEndMod.group));
+    public static final Item paramulite_boots = new ParamuliteArmorItem(QEArmorMaterials.paramulite, EquipmentSlot.FEET, new FabricItemSettings().group(QueksEndMod.group));
 
     //tools
     public static final Item argulum_sword = new SwordItem(QEToolMaterials.argulum, 3, -2.4F, new FabricItemSettings().group(QueksEndMod.group));

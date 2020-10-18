@@ -39,5 +39,9 @@
   "block.queks_end.end_fence": "Elder Fence",
   "block.queks_end.end_fence_gate": "Elder Fence Gate",
   "block.queks_end.end_pressure_plate": "Elder Pressure Plate",
-  "block.queks_end.end_button": "Elder Button"
+  "block.queks_end.end_button": "Elder Button",
+  "item.queks_end.paramulite_helmet": "Paramulite Helmet",
+  "item.queks_end.paramulite_chestplate": "Paramulite Chestplate",
+  "item.queks_end.paramulite_leggings": "Paramulite Leggings",
+  "item.queks_end.paramulite_boots": "Paramulite Boots"
 }

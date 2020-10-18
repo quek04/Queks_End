@@ -4,3 +4,11 @@ accessible method net/minecraft/world/gen/trunk/TrunkPlacerType <init> (Lcom/moj
 
 mutable    field    net/minecraft/item/AxeItem    STRIPPED_BLOCKS    Ljava/util/Map;
 accessible    field    net/minecraft/item/AxeItem    STRIPPED_BLOCKS    Ljava/util/Map;
+
+accessible field net/minecraft/item/ArmorItem MODIFIERS [Ljava/util/UUID;
+accessible field net/minecraft/item/ArmorItem attributeModifiers Lcom/google/common/collect/Multimap;
+mutable field net/minecraft/item/ArmorItem attributeModifiers Lcom/google/common/collect/Multimap;
+accessible field net/minecraft/item/ArmorItem protection I
+mutable field net/minecraft/item/ArmorItem protection I
+accessible field net/minecraft/item/ArmorItem toughness F
+mutable field net/minecraft/item/ArmorItem toughness F
