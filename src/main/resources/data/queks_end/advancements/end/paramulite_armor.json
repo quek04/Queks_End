@@ -1,0 +1,47 @@
+{
+  "parent": "queks_end:end/paramulite",
+  "display": {
+    "icon": {
+      "item": "queks_end:paramulite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.end.paramulite_armor.title"
+    },
+    "description": {
+      "translate": "advancements.end.paramulite_armor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "criteria": {
+    "paramulite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "queks_end:paramulite_helmet"
+          },
+          {
+            "item": "queks_end:paramulite_chestplate"
+          },
+          {
+            "item": "queks_end:paramulite_leggings"
+          },
+          {
+            "item": "queks_end:paramulite_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "paramulite_armor"
+    ]
+  ]
+}
