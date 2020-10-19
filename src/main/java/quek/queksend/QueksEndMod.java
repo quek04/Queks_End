@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import quek.queksend.block.QEBlocks;
+import quek.queksend.entity.QEEntityTypes;
 import quek.queksend.item.QEItems;
 import quek.queksend.world.gen.carver.QECarvers;
 import quek.queksend.world.gen.carver.QEConfiguredCarvers;
@@ -19,6 +20,7 @@ public class QueksEndMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        QEEntityTypes.registerAll();
         QEBlocks.registerAll();
         QEItems.registerAll();
         QEFeatures.registerAll();
