@@ -9,6 +9,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import quek.queksend.QueksEndMod;
 import quek.queksend.block.QEBlocks;
+import quek.queksend.entity.QEEntityTypes;
+
+import java.awt.*;
 
 public class QEItems {
 
@@ -53,6 +56,9 @@ public class QEItems {
     public static final Item argulum_shovel = new ShovelItem(QEToolMaterials.argulum, 1.5F, -3.0F, new FabricItemSettings().group(QueksEndMod.group));
     public static final Item argulum_hoe = new QEHoeItem(QEToolMaterials.argulum, -2, -1.0F, new FabricItemSettings().group(QueksEndMod.group));
 
+    //spawn eggs
+    public static final Item flitterfly_egg = new SpawnEggItem(QEEntityTypes.flitterfly, new Color(87, 44, 111).getRGB(), new Color(102, 194, 238).getRGB(), new FabricItemSettings().group(QueksEndMod.group));
+
     public static void registerAll() {
         register("obversa_fruit", obversa_fruit);
         register("chorus_obversa_stew", chorus_obversa_stew);
@@ -68,6 +74,7 @@ public class QEItems {
         register("argulum_axe", argulum_axe);
         register("argulum_shovel", argulum_shovel);
         register("argulum_hoe", argulum_hoe);
+        register("flitterfly_spawn_egg", flitterfly_egg);
     }
 
     private static void register(String id, Item item) {
