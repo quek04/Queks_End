@@ -7,7 +7,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum QEToolMaterials implements ToolMaterial {
-    argulum(5, 6092, 11.0F, 2.0F, 20, () -> {
+    argulum(5, 6092, 11.0F, 2.5F, 20, () -> {
         return Ingredient.ofItems(QEItems.argulum_ingot);
     })
     ;

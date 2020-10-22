@@ -12,7 +12,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum  QEArmorMaterials implements ArmorMaterial {
-    paramulite("paramulite", 21, new int[]{2, 5, 7, 3}, 5, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 4.0F, 0.2F, () -> {
+    paramulite("paramulite", 16, new int[]{2, 5, 7, 3}, 5, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 4.0F, -0.1F, () -> {
         return Ingredient.ofItems(QEItems.paramulite_gem);
     })
     ;
