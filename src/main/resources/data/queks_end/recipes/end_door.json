@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "queks_end:end_planks"
+    }
+  },
+  "result": {
+    "item": "queks_end:end_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "queks_end:flitterfly",
+    "minecraft:enderman",
+    "minecraft:endermite",
+    "minecraft:ender_dragon"
+  ]
+}

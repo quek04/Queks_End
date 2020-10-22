@@ -50,7 +50,8 @@ public abstract class ChorusPlantBlockMixin {
     }
 
     /**
-     * lol!
+     *
+     * @reason lol
      * @author quek
      */
     @Overwrite

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "queks_end:block/end_door_top",
+    "bottom": "queks_end:block/end_door_bottom"
+  }
+}

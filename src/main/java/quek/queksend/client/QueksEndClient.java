@@ -43,14 +43,16 @@ public class QueksEndClient implements ClientModInitializer {
         RenderLayer mipped = RenderLayer.getCutoutMipped();
         RenderLayer translucent = RenderLayer.getTranslucent();
 
-        registerRenderLayer(QEBlocks.end_grass_block, mipped);
-        registerRenderLayer(QEBlocks.end_grass, cutout);
-        registerRenderLayer(QEBlocks.tall_end_grass, cutout);
-        registerRenderLayer(QEBlocks.obversa_plant, cutout);
-        registerRenderLayer(QEBlocks.end_sapling, cutout);
+        rL(QEBlocks.end_grass_block, mipped);
+        rL(QEBlocks.end_grass, cutout);
+        rL(QEBlocks.tall_end_grass, cutout);
+        rL(QEBlocks.obversa_plant, cutout);
+        rL(QEBlocks.end_sapling, cutout);
+        rL(QEBlocks.end_door, cutout);
+        rL(QEBlocks.end_trapdoor, cutout);
     }
 
-    private static void registerRenderLayer(Block block, RenderLayer renderLayer) {
+    private static void rL(Block block, RenderLayer renderLayer) {
         BlockRenderLayerMap.INSTANCE.putBlock(block, renderLayer);
     }
 

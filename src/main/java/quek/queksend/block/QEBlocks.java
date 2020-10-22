@@ -30,6 +30,8 @@ public class QEBlocks {
     public static final Block end_fence_gate = new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE));
     public static final Block end_pressure_plate = new EndPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE));
     public static final Block end_button = new EndButtonBlock(FabricBlockSettings.copyOf(Blocks.OAK_BUTTON));
+    public static final Block end_door = new EndDoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR));
+    public static final Block end_trapdoor = new EndTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR));
     public static final Block end_leaves = new EndLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES));
 
     //plants
@@ -56,6 +58,8 @@ public class QEBlocks {
         register("end_fence_gate", end_fence_gate);
         register("end_pressure_plate", end_pressure_plate);
         register("end_button", end_button);
+        register("end_door", end_door);
+        register("end_trapdoor", end_trapdoor);
         register("end_leaves", end_leaves);
         register("end_sapling", end_sapling);
         register("end_grass", end_grass);
