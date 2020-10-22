@@ -5,12 +5,15 @@
 package quek.queksend.client.render.entity.model;
 
 import com.google.common.collect.ImmutableList;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.entity.model.CompositeEntityModel;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.util.math.MathHelper;
-import quek.queksend.entity.passive.FlitterflyEntity;
 
-public class FlitterflyEntityModel extends CompositeEntityModel<FlitterflyEntity> {
+@Environment(EnvType.CLIENT)
+public class FlitterflyEntityModel<T extends LivingEntity> extends CompositeEntityModel<T> {
     private final ModelPart body;
     private final ModelPart rightWing;
     private final ModelPart leftWing;
@@ -54,7 +57,7 @@ public class FlitterflyEntityModel extends CompositeEntityModel<FlitterflyEntity
 	}
 
 	@Override
-    public void setAngles(FlitterflyEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+    public void setAngles(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
         this.rightWing.yaw = MathHelper.cos(ageInTicks) * 3.1415927F * 0.15F;
         this.leftWing.pitch = this.rightWing.pitch;
         this.leftWing.yaw = -this.rightWing.yaw;
