@@ -9,6 +9,7 @@ import net.minecraft.entity.ai.pathing.BirdNavigation;
 import net.minecraft.entity.ai.pathing.EntityNavigation;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.particle.ParticleTypes;
@@ -71,12 +72,18 @@ public class FlitterflyEntity extends PassiveEntity {
         }
     }
 
+    @Override
+    public boolean damage(DamageSource source, float amount) {
+        this.teleportRandomly();
+        return super.damage(source, amount);
+    }
+
     protected void teleportRandomly() {
         if (!this.world.isClient() && this.isAlive()) {
-            double d = this.getX() + (this.random.nextDouble() - 0.5D) * 64.0D;
-            double e = this.getY() + (double)(this.random.nextInt(64) - 32);
-            double f = this.getZ() + (this.random.nextDouble() - 0.5D) * 64.0D;
-            this.teleportTo(d, e, f);
+            double x = this.getX() + (this.random.nextDouble() - 0.5D) * 64.0D;
+            double y = this.getY() + (double)(this.random.nextInt(64) - 32);
+            double z = this.getZ() + (this.random.nextDouble() - 0.5D) * 64.0D;
+            this.teleportTo(x, y, z);
         }
     }
 
