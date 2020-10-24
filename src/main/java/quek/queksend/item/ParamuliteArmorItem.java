@@ -25,6 +25,4 @@ public class ParamuliteArmorItem extends ArmorItem {
 
         this.attributeModifiers = builder.build();
     }
-
-
 }

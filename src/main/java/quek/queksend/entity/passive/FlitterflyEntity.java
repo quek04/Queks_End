@@ -2,6 +2,7 @@ package quek.queksend.entity.passive;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.ai.TargetFinder;
 import net.minecraft.entity.ai.control.FlightMoveControl;
 import net.minecraft.entity.ai.goal.Goal;
@@ -20,9 +21,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+import net.minecraft.world.WorldAccess;
 import org.jetbrains.annotations.Nullable;
+import quek.queksend.block.QEBlocks;
 
 import java.util.EnumSet;
+import java.util.Random;
 
 public class FlitterflyEntity extends PassiveEntity {
 
@@ -43,6 +47,10 @@ public class FlitterflyEntity extends PassiveEntity {
     @Override
     protected void initGoals() {
         this.goalSelector.add(0, new WanderGoal());
+    }
+
+    public static boolean canFlitterflySpawn(EntityType<? extends MobEntity> type, WorldAccess world, SpawnReason spawnReason, BlockPos pos, Random random) {
+        return world.getBlockState(pos.down()).isOf(QEBlocks.end_grass_block);
     }
 
     @Override

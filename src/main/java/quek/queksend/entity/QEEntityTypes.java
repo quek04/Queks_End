@@ -31,7 +31,7 @@ public class QEEntityTypes {
     }
 
     private static void registerSpawnRestrictions() {
-        spR(flitterfly, SpawnRestriction.Location.NO_RESTRICTIONS, Heightmap.Type.MOTION_BLOCKING, AmbientEntity::canMobSpawn);
+        spR(flitterfly, SpawnRestriction.Location.NO_RESTRICTIONS, Heightmap.Type.MOTION_BLOCKING, FlitterflyEntity::canFlitterflySpawn);
     }
 
     private static <T extends Entity> void register(String id, EntityType<T> entityType) {
