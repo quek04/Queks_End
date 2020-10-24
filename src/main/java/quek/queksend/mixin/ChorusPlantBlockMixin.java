@@ -38,7 +38,7 @@ public abstract class ChorusPlantBlockMixin {
         );
     }
 
-    @Inject(method = "getStateForNeighborUpdate", at = @At("INVOKE"), cancellable = true)
+    @Inject(method = "getStateForNeighborUpdate", at = @At("RETURN"), cancellable = true)
     private void getStateForNeighborUpdateInject(BlockState state, Direction direction, BlockState newState, WorldAccess world, BlockPos pos, BlockPos posFrom, CallbackInfoReturnable<BlockState> cir) {
         if (!state.canPlaceAt(world, pos)) {
             world.getBlockTickScheduler().schedule(pos, (ChorusPlantBlock)(Object)this, 1);
